@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #212121;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover{
+    color: #e64a19;
+}
+ul{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          navigation stuff       /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar>ul>li{
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 90px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9998;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 5px #a3a3a3;
+}
+
+.homeLink{
+    padding-bottom: 30px;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+}
+
+.lightBulb{
+    height: 100px;
+}
+
+.link{
+    height: 100%;
+}
+
+.menuTap{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+
+.hamburger{
+    height: 40px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          home content       ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.homeContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.whatisWebDev{
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.logoLight{
+    display: inline;
+    height: 500px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
