@@ -143,7 +143,7 @@ ul{
 .slider {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
   border-bottom: 0px;
   top: 60px;
 }
@@ -157,6 +157,7 @@ ul{
   left: 0;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .active-slide {
@@ -165,10 +166,10 @@ ul{
 
 
 .slide-1{
-  background-image: url('slide1.png');
+    background-image: url('background.jpg');
   background-position: center right;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -177,10 +178,10 @@ ul{
 }
 
 .slide-2{
-  background-image: url('slide2.jpg');
+  background-image: url('background.jpg');
   background-position: center right;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -188,9 +189,10 @@ ul{
   height: 100%;
 }
 .slide-3{
-  background-image: url('slide3.jpg');
+  bbackground-image: url('background.jpg');
   background-position: center right;
   background-size: cover;
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -198,16 +200,20 @@ ul{
   height: 100%;
 }
 .slide-4{
-  background-image: url('slide3.jpg');
+  background-image: url('background.jpg');
   background-position: center right;
   background-size: cover;
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-
+.htmlSlide{
+    height: 100%;
+    text-align: center;
+}
 
 /*/////////////////////////////////////////////////////////////////////////////////////
  /////////////////////////  slider navigation   /////////////////////////////
@@ -217,19 +223,16 @@ ul{
   text-align: center;
   margin-top: 60px;
   clear: both;
-  background-color: #ffffff;
-    height: 40px;
+ 
 }
 
 .arrow-prev {
-  margin-right: 45px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
 }
 
 .arrow-next {
-  margin-left: 45px;
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
