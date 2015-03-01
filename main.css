@@ -114,6 +114,7 @@ ul{
     width: 100%;
     margin: 0px;
     margin-top: 150px;
+    margin-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -137,6 +138,7 @@ ul{
 
 .languageContent{
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 .examples{
     background-image: url('background.jpg');
@@ -147,6 +149,42 @@ ul{
   text-align: center;
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////           tools content         ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.toolContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-image: url('background2.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+.learnFree{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           resources content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.referenceContent{
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #bf360c;
+}
+.referenceContent>p{
+    font-size: 1.2em;
+    color: #fff;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////
  //////////////////////////////   carousel   ////////////////////////////////////
  //////////////////////////////////////////////////////////////////////////////////*/
@@ -245,7 +283,6 @@ ul{
   text-align: center;
   margin-top: 60px;
   clear: both;
-  background-color: #04a89f;
  
 }
 
