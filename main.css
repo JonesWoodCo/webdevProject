@@ -118,10 +118,6 @@ ul{
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    /*background-image: url('background2.jpg');
-    background-position: center right;
-    background-size: cover;
-    background-repeat: repeat;*/
   }
   .whyimg{
     width: 1000px;
@@ -149,10 +145,6 @@ ul{
     text-align: center;
 }
 .examples{
-    /*background-image: url('background.jpg');
-  background-position: center right;
-  background-size: cover;
-  background-repeat: repeat;*/
   text-align: center;
   margin-left: auto;
   margin-right: auto;
