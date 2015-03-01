@@ -189,7 +189,7 @@ ul{
   height: 100%;
 }
 .slide-3{
-  bbackground-image: url('background.jpg');
+  background-image: url('background.jpg');
   background-position: center right;
   background-size: cover;
   background-repeat: repeat;
@@ -214,7 +214,18 @@ ul{
     height: 100%;
     text-align: center;
 }
-
+.jsSlide{
+    height: 100%;
+    text-align: center;
+}
+.cssSlide{
+    height: 100%;
+    text-align: center;
+}
+.phpSlide{
+    height: 100%;
+    text-align: center;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////
  /////////////////////////  slider navigation   /////////////////////////////
  //////////////////////////////////////////////////////////////////////////////////*/
