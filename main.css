@@ -117,13 +117,16 @@ ul{
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-}
+    background-image: url('background2.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-repeat: repeat;
+  }
 .whyWebDev{
     display: inline;
     text-align: center;
     margin: 0px;
     padding: 0px;
-    float: left
 }
 
 
@@ -134,6 +137,14 @@ ul{
 
 .languageContent{
     margin-top: 75px;
+}
+.examples{
+    background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  text-align: center;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////
@@ -234,6 +245,7 @@ ul{
   text-align: center;
   margin-top: 60px;
   clear: both;
+  background-color: #04a89f;
  
 }
 
