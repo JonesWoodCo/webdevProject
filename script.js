@@ -1,6 +1,9 @@
 var main = function() {
 
-
+  $('.menuTap').click(function(){
+      $('.navbar>ul>li').toggle();
+  });
+  
   $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();

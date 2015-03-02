@@ -1,0 +1,382 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #212121;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover{
+    color: #e64a19;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          navigation stuff       /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar>ul>li{
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    font-size: 4em;
+    display: none;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9998;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 5px #a3a3a3;
+}
+
+.homeLink{
+    padding-bottom: 30px;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+}
+
+.lightBulb{
+    height: 120px;
+    float: right;
+}
+
+.link{
+    height: 100%;
+}
+
+.menuTap{
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    font-size: 4.3em;
+    margin-top: 10px;
+}
+
+.hamburger{
+    height: 90px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          home content       ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.homeContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.whatisWebDev{
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.logoLight{
+    display: inline;
+    height: 500px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////           why content         ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.whyContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 130px;
+    text-align: center;
+    float: left;
+    padding: 0px;
+    margin-0px;
+  }
+  .whyimg{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+  }
+.whyWebDev{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           languages content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.languageContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 60px;
+    text-align: center;
+    float: left;
+    padding: 0px;
+}
+.examples{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+.ex{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           practices content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.practicesContent{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.practices{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.goodPractice{
+    width: 499px;
+    float: left;
+}
+browswer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           interact content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.interactContent{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.interact{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////           tools content         ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.toolContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .tools{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+.learnFree{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 499px;
+    float: left;
+}
+.gitHub{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 499px;
+    float: left;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           resources content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.referenceContent{
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #bf360c;
+}
+.referenceContent>p{
+    font-size: 1.2em;
+    color: #fff;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////   carousel   ////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border-bottom: 0px;
+  top: 60px;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.active-slide {
+  display: block;
+}
+
+
+.slide-1{
+    background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-2{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-3{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-4{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.htmlSlide{
+    height: 100%;
+    text-align: center;
+}
+.jsSlide{
+    height: 100%;
+    text-align: center;
+}
+.cssSlide{
+    height: 100%;
+    text-align: center;
+}
+.phpSlide{
+    height: 100%;
+    text-align: center;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////  slider navigation   /////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+
+.slider-nav {
+  text-align: center;
+  margin-top: 60px;
+  clear: both;
+  background-color: #848381;
+  width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+    float: left; 
+}
+
+.arrow-prev {
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.arrow-next {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+}
+.next{
+    height: 98px;
+}
+.prev{
+    height: 98px;
+}
