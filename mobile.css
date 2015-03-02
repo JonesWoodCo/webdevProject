@@ -179,10 +179,10 @@ ul{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 100%;
 }
 .goodPractice{
-    width: 499px;
+    width: 100%;
     float: left;
 }
 browswer{
@@ -221,7 +221,7 @@ browswer{
     text-align: center;
   }
   .tools{
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -231,7 +231,7 @@ browswer{
     text-align: center;
     margin: 0px;
     padding: 0px;
-    width: 499px;
+    width: 100%;
     float: left;
 }
 .gitHub{
@@ -239,7 +239,7 @@ browswer{
     text-align: center;
     margin: 0px;
     padding: 0px;
-    width: 499px;
+    width: 100%;
     float: left;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////
