@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #212121;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover{
+    color: #e64a19;
+}
+ul{
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          navigation stuff       /////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar>ul>li{
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 90px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9998;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 5px #a3a3a3;
+}
+
+.homeLink{
+    padding-bottom: 30px;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+}
+
+.lightBulb{
+    height: 100px;
+}
+
+.link{
+    height: 100%;
+}
+
+.menuTap{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+
+.hamburger{
+    height: 40px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////          home content       ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.homeContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.whatisWebDev{
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.logoLight{
+    display: inline;
+    height: 500px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////           why content         ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.whyContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+  .whyimg{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.whyWebDev{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 499px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           languages content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.languageContent{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.examples{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.ex{
+    width: 499px;
+    float: left;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           practices content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.practicesContent{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.practices{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.goodPractice{
+    width: 499px;
+    float: left;
+}
+browswer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           practices content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.interactContent{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.interact{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////           tools content         ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.toolContent{
+    width: 100%;
+    margin: 0px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .tools{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+.learnFree{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 499px;
+    float: left;
+}
+.gitHub{
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 499px;
+    float: left;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////           resources content         ////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.referenceContent{
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #bf360c;
+}
+.referenceContent>p{
+    font-size: 1.2em;
+    color: #fff;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////   carousel   ////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border-bottom: 0px;
+  top: 60px;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.active-slide {
+  display: block;
+}
+
+
+.slide-1{
+    background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-2{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-3{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-4{
+  background-image: url('background.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.htmlSlide{
+    height: 100%;
+    text-align: center;
+}
+.jsSlide{
+    height: 100%;
+    text-align: center;
+}
+.cssSlide{
+    height: 100%;
+    text-align: center;
+}
+.phpSlide{
+    height: 100%;
+    text-align: center;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////  slider navigation   /////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////*/
+
+.slider-nav {
+  text-align: center;
+  margin-top: 60px;
+  clear: both;
+  background-color: #848381;
+ 
+}
+
+.arrow-prev {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
