@@ -113,7 +113,7 @@ ul{
 .whyContent{
     width: 100%;
     margin: 0px;
-    margin-top: 150px;
+    margin-top: 110px;
     margin-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -140,7 +140,7 @@ ul{
 ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .languageContent{
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -161,7 +161,7 @@ ul{
 ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .practicesContent{
-    margin-top: 150px;
+    margin-top: 110px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -186,7 +186,7 @@ browswer{
 ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .interactContent{
-    margin-top: 150px;
+    margin-top: 110px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -206,7 +206,7 @@ browswer{
 .toolContent{
     width: 100%;
     margin: 0px;
-    margin-top: 150px;
+    margin-top: 110px;
     margin-bottom: 50px;
     text-align: center;
   }
