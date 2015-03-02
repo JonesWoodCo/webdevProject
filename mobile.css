@@ -327,19 +327,19 @@ browswer{
   height: 100%;
 }
 .htmlSlide{
-    height: 100%;
+    width: 100%;
     text-align: center;
 }
 .jsSlide{
-    height: 100%;
+    width: 100%;
     text-align: center;
 }
 .cssSlide{
-    height: 100%;
+    width: 100%;
     text-align: center;
 }
 .phpSlide{
-    height: 100%;
+    width: 100%;
     text-align: center;
 }
 /*/////////////////////////////////////////////////////////////////////////////////////
